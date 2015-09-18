@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<style>
+
+.node {
+  stroke: #fff;
+  stroke-width: 1.5px;
+}
+
+.link {
+  stroke: #999;
+  stroke-opacity: .6;
+}
+
+</style>
+<body>
+<script src="http://d3js.org/d3.v3.min.js"></script>
+<script src="js/graph.js"></script>
+<script type="text/javascript">
+
+
+
+graph = new myGraph("body");
+
+graph.addNode("Cause");
+graph.addNode("Effect");
+graph.addLink("Cause", "Effect");
+graph.addNode("A");
+graph.addNode("B");
+graph.addLink("A", "B");
+
+</script>
