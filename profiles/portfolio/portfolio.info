@@ -32,5 +32,6 @@ dependencies[] = imce
 dependencies[] = ctools
 dependencies[] = features
 dependencies[] = strongarm
+dependencies[] = portfolio_demo
 
 files[] = portfolio.profile
