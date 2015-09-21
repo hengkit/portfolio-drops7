@@ -19,14 +19,15 @@ article, aside, details, figcaption, figure, footer, header, hgroup, nav, sectio
 html {
 	font-size: 1em;
 	overflow-y: scroll;
-	
+
 }
 body {
 	margin: 0;
 	font-size: 0.75em;
 	font-family:  'Helvetica Neue', Helvetica, Arial, sans-serif;
 	color: #555;
-	background: #fff;
+	//This looks like a great place to change the background color to something else
+	background: white;
 	padding: 0;
 }
 
@@ -103,8 +104,8 @@ mark {
 	font-weight: bold;
 }
 pre, code, kbd, samp {
-	
-	
+
+
 	font-size: 1em;
 }
 pre code { font-size: 1em }
@@ -117,7 +118,7 @@ pre {
 	padding: 10px;
 	white-space: pre;
 	white-space: pre-wrap;
-	
+
 }
 code {
 	font-size: 0.9166666666666667em;
@@ -173,7 +174,7 @@ h6 {
 }
 img {
 	border: 0;
-	
+
 	vertical-align: middle;
 }
 svg:not(:root) { overflow: hidden; }
@@ -202,11 +203,11 @@ button, input, a.button {
 table button, table input { overflow: auto; }
 button, input[type="button"], input[type="reset"], input[type="submit"] {
 	cursor: pointer;
-	
+
 }
 input[type="checkbox"], input[type="radio"] { box-sizing: border-box; }
 input[type="search"] {
-	
+
 	box-sizing: content-box;
 }
 
@@ -225,7 +226,7 @@ table {
 td { vertical-align: top; }
 th, td { text-align: left; }
 
-/* WordPress classes 
+/* WordPress classes
 -------------------------------------------------------------- */
 img.wp-smiley {
 	max-height: 0.9166666666666667em;
@@ -263,13 +264,13 @@ blockquote.alignleft, blockquote .alignright { width: 33%; }
 .clear { clear: both; }
 
 /*  Transitions
------------------------------------------------------ 
+-----------------------------------------------------
 /*a, input[type=submit], input[type=button], input[type=text], textarea, .home .hentry .entry-title, .archive .hentry .entry-title, .pagination a.page-numbers {
-	
+
     transition: all 0.2s ease-out;
 }*/
 
-/* Tables 
+/* Tables
 -------------------------------------------------------------- */
 table {
 	margin: 0 0 1.75em 0;
@@ -296,7 +297,7 @@ td {
 	border-bottom: 1px solid #e7e7e7;
 }
 
-/* Lists 
+/* Lists
 -------------------------------------------------------------- */
 ul li, ol li { line-height: 2.1em; }
 dl { margin: 0 0 20px 30px; }
@@ -326,7 +327,7 @@ blockquote, blockquote blockquote blockquote {
 	background: url(images/quote.png) no-repeat 0 4px;
 }
 
-/* Code 
+/* Code
 -------------------------------------------------------------- */
 code {
 	padding: 0 3px;
@@ -343,11 +344,11 @@ pre code {
 	background: transparent;
 }
 
-/* Forms 
+/* Forms
 -------------------------------------------------------------- */
 form label, form input, form textarea { font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; }
 form label {
-	line-height: 1em;	
+	line-height: 1em;
 	color: #222;
 	margin:2px;
 }
@@ -365,9 +366,9 @@ select { padding: 0; }
 input[type="text"]:focus, input[type="password"]:focus, input[type="email"]:focus, textarea:focus, .input-text:focus {
 	border: 1px solid #aaa;
 	color: #444;
-	
-	
-	
+
+
+
 }
 textarea {
 	display: block;
@@ -379,7 +380,7 @@ input[type="checkbox"] { display: inline; }
 input[type="submit"]:hover { cursor: pointer }
 .error { color: #ff4367; }
 
-/* Images 
+/* Images
 -------------------------------------------------------------- */
 #site-title a:hover img { border: none; }
 .hentry img, .entry-content img, .widget img, .wp-caption, .hentry embed, .entry-content embed, .widget embed, .hentry object, .entry-content object, .widget object, .hentry video, .entry-content video, .widget video {
@@ -389,8 +390,8 @@ input[type="submit"]:hover { cursor: pointer }
 	height: auto;
 }
 
-/* Captions [caption] 
--------------------------------------------------------------- 
+/* Captions [caption]
+--------------------------------------------------------------
 .wp-caption {
 	overflow: hidden;
 	text-align: center;
@@ -405,8 +406,8 @@ input[type="submit"]:hover { cursor: pointer }
 }
 .wp-caption a { border: none; }
 
-/* Galleries 
--------------------------------------------------------------- 
+/* Galleries
+--------------------------------------------------------------
 .gallery {
 	display: block;
 	clear: both;
@@ -455,7 +456,7 @@ input[type="submit"]:hover { cursor: pointer }
 	float: left;
 	width: 100%;
 }
-.attachment-image img.alignleft { margin: 0; }	
+.attachment-image img.alignleft { margin: 0; }
 .gallery-caption { margin: 3px 0 0 0 }
 .col-0 { width: 100% }
 .col-1 { width: 100% }
@@ -521,7 +522,7 @@ Layout
 #comments-template { clear: left; float: left; width: 68.08510638297872%; }
 .singular-page #comments-template { width: 100%; }
 
-/* Header 
+/* Header
 -------------------------------------------------------------- */
 #header {
 	clear: both;
@@ -539,7 +540,7 @@ Layout
 	line-height: 1em;
 	font-weight: bold;
 	margin: 0 0 5px 0;
-	
+
 }
 #site-title a {
 	color: #222;
@@ -559,11 +560,11 @@ Layout
 	padding-left:0px;
 }
 
-/* Primary menu 
+/* Primary menu
 -------------------------------------------------------------- */
 /*#menu-primary {
 	font-size: 1em;
-	
+
 	margin: 20px 0 0 0;
 	float: right;
 	position: relative;
@@ -621,9 +622,9 @@ Layout
 	left: 12px;
 	border: 1px solid #d9d9d9;
 	background: #fff;
-	
-	
-	z-index: 100;	
+
+
+	z-index: 100;
 }
 #menu-primary li:hover ul, #menu-primary li.sfHover ul {
 	display: block;
@@ -658,7 +659,7 @@ Layout
 .menu li a.active {
     color:#86869D;
 }*/
-/* Home page 
+/* Home page
 -------------------------------------------------------------- */
 #masthead{
 	/*width: 695px;*/
@@ -677,7 +678,7 @@ Layout
 	max-width: 100%;
 }
 
-/* Posts 
+/* Posts
 -------------------------------------------------------------- */
 .hentry {
 	float: left;
@@ -722,8 +723,8 @@ Layout
 	clear: both;
 }
 
-/* Post titles 
--------------------------------------------------------------- 
+/* Post titles
+--------------------------------------------------------------
 .hentry .entry-title {
 	margin: 0 0 0.6em 0;
 	padding: 0;
@@ -761,7 +762,7 @@ Layout
 .entry-title a:hover { color: #64a2d8; }
 .home .hentry .entry-title a:hover, .archive .hentry .entry-title a:hover { color: #222; }
 
- Post bylines/datelines 
+ Post bylines/datelines
 -------------------------------------------------------------- */
 .byline, .entry-meta {
 	margin: 0 0 1em 0;
@@ -782,12 +783,12 @@ Layout
 	text-transform: none;
 }
 
-/* Post excerpts 
+/* Post excerpts
 -------------------------------------------------------------- */
 .entry-summary p { margin: 0 0 1em 0; }
 .home .entry-summary p, .archive .entry-summary p { color: #aaa; }
 
-/* Singular post prev/next links 
+/* Singular post prev/next links
 -------------------------------------------------------------- */
 .singular .loop-nav {
 	font-size: 0.9166666666666667em;
@@ -796,7 +797,7 @@ Layout
 	margin-top: 40px;
 }
 
-/* Page links for multi-paged posts <!--nextpage--> 
+/* Page links for multi-paged posts <!--nextpage-->
 -------------------------------------------------------------- */
 .page-links {
 	clear: both;
@@ -822,7 +823,7 @@ Layout
 	background: #222;
 }
 
-/* Archive/search pagination and comment pagination 
+/* Archive/search pagination and comment pagination
 -------------------------------------------------------------- */
 .comment-navigation { margin-bottom: 1.75em; }
 .pagination.loop-pagination {
@@ -836,7 +837,7 @@ Layout
 	display: inline-block;
 	padding: 5px 10px 7px 10px;
 	line-height: 1em;
-	color: #888;	
+	color: #888;
 }
 .pagination a.page-numbers, .comment-navigation a.page-numbers {
 	background: #eee;
@@ -846,7 +847,7 @@ Layout
 	background: #fff;
 }
 
-/* Sidebar after singular posts 
+/* Sidebar after singular posts
 -------------------------------------------------------------- */
 #sidebar-after-singular {
 	overflow: hidden;
@@ -856,7 +857,7 @@ Layout
 	width: 100%;
 }
 
-/* Widgets 
+/* Widgets
 -------------------------------------------------------------- */
 .sidebar .widget {
 	float: left;
@@ -866,7 +867,7 @@ Layout
 }
 .widget table, .widget ul, .widget ol { margin-bottom: 0; }
 
-/* Widget titles 
+/* Widget titles
 -------------------------------------------------------------- */
 .sidebar .widget-title {
 	font-size: 1.166666666666667em;
@@ -874,7 +875,7 @@ Layout
 	font-weight: bold;
 }
 
-/* Widget unordered lists 
+/* Widget unordered lists
 -------------------------------------------------------------- */
 .sidebar .widget ul { margin-left: 5px; }
 .sidebar .widget ul li a { color: #555; }
@@ -893,7 +894,7 @@ Layout
 .widget .search-form input[type="text"] {
 	width: 91.538461%;
 	float: left;
-	
+
 	font-size: 1em;
 	color: #aaa;
 }
@@ -943,7 +944,7 @@ Layout
 }
 #comment { margin-top: 20px; }
 
-/* Subsidiary sidebar 
+/* Subsidiary sidebar
 -------------------------------------------------------------- */
 #sidebar-subsidiary {
 	overflow: visible;
@@ -958,7 +959,7 @@ Layout
 	font-size: 1em;
 }
 
-/* Footer 
+/* Footer
 -------------------------------------------------------------- */
 #footer {
 	overflow: hidden;
@@ -988,7 +989,7 @@ Layout
 #respond #submit, .button, a.button, .awp-button, #subscribe #subbutton, .wpcf7-submit, #loginform .button-primary {
 	color: #555;
 	display: inline-block;
-	
+
 	cursor: pointer;
 	margin-bottom: 20px;
 	padding: 7px 14px;
@@ -996,7 +997,7 @@ Layout
 	border-top: 1px solid #d2d2d2;
 	border-bottom: 1px solid #b5b5b5;
 	background-color: #e7e7e7;
-	
+
 }
 #respond #submit:hover, .button:hover, .awp-button:hover, #subscribe #subbutton:hover, .wpcf7-submit:hover, #loginform .button-primary:hover {
 	color: #000;
@@ -1026,7 +1027,7 @@ Layout
 .footer_zyxware a {
   color:#919191;
   text-decoration:none;
-} 
+}
 
 .pager li {
   background-clip: border-box;
@@ -1078,7 +1079,7 @@ Layout
 	text-transform: none;
 	color: pink;
     margin-bottom: 0px;
-    
+
     margin-left: auto;
     margin-right: auto;
     margin-top: 0;
@@ -1091,7 +1092,7 @@ Layout
     /*float: left;*/
     padding-bottom: 0px;
     /*padding-left: 15px;*/
-    
+
     padding-right: 15px;
     padding-top: 0px;
 }
@@ -1206,7 +1207,7 @@ Layout
   color:#64A2D8;
 }
 #nav a {
-    
+
 	background: #fff;
     color: #555555;
 }
