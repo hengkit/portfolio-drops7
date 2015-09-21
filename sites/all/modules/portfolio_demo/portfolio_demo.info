@@ -1,6 +1,6 @@
 name = portfolio demo
 core = 7.x
-package = Demo
+package = Features
 version = 7.x-1.0
 dependencies[] = block
 dependencies[] = ckeditor
@@ -18,5 +18,4 @@ features[filter][] = filtered_html
 features[filter][] = full_html
 features[filter][] = plain_text
 features[menu_custom][] = main-menu
-features[menu_links][] = main-menu_platform:http:/platform
 features[variable][] = imce_profiles
