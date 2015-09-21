@@ -65,13 +65,13 @@
 <div id="container" class="container-12">
   <div id="header" class="grid-12">
     <div id="branding" class="grid-4">
-    
+
        <?php if ($site_name): ?>
           <a href="<?php print check_url($front_page); ?>" title="<?php print t('Home'); ?>">
             <?php print $site_name; ?>
           </a>
         <?php endif; ?>
-      <h2 id="site-description"><span><?php print render($site_slogan)?></span></h2>	
+      <h2 id="site-description"><span><?php print render($site_slogan)?></span></h2>
     </div><!--closing of branding div-->
     <!--<div id="menu-primary" class="menu-container grid-7">-->
       <?php// if ($main_menu): ?>
@@ -90,8 +90,8 @@
                             ),
                           )); */
           ?>
-                                 <?php 
-          if (module_exists('i18n')) { 
+                                 <?php
+          if (module_exists('i18n')) {
             $main_menu_tree = i18n_menu_translated_tree(variable_get('menu_main_links_source', 'main-menu'));
           } else {
             $main_menu_tree = menu_tree(variable_get('menu_main_links_source', 'main-menu'));
@@ -102,10 +102,10 @@
       <?php// endif;?>
     <!--</div><!--closing of menu-primary div-->
   </div><!--closing of header div-->
-  
+
   <div id="main">
-    <?php if ($page['featured']): ?> 
-      <div class="grid-12" id="featured-block">  
+    <?php if ($page['featured']): ?>
+      <div class="grid-12" id="featured-block">
         <?php print render($page['featured']); ?>
       </div>
     <?php endif;?>
@@ -117,7 +117,7 @@
     <?php if ($page['footer1']): ?>
       <div class="textwidget alpha grid-4">
         <?php print render($page['footer1']); ?>
-      </div> 
+      </div>
     <?php endif;?>
     <?php if ($page['footer2']): ?>
       <div class="textwidget grid-4">
@@ -134,7 +134,6 @@
     <?php if ($page['footer']): ?>
       <?php print render($page['footer']); ?>
     <?php endif;?>
-    <div class="footer_zyxware">Theme by <?php print l('Zyxware Technologies','http://www.zyxware.com');?></div>
+    <!-- div class="footer_zyxware">Theme by <?php //print l('Zyxware Technologies','http://www.zyxware.com');?></div -->
   </div>
 </div><!--closing of container div-->
-

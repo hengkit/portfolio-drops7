@@ -72,7 +72,7 @@
            <?php print $site_name; ?>
           </a>
         <?php endif; ?>
-          <h2 id="site-description"><span><?php print render($site_slogan)?></span></h2>	
+          <h2 id="site-description"><span><?php print render($site_slogan)?></span></h2>
         </div><!--closing of branding div-->
         <!--<div id="menu-primary" class="menu-container grid-7">-->
         <!--<div class="menu" >-->
@@ -90,8 +90,8 @@
                             ),
                           )); */
           ?>
-                                 <?php 
-          if (module_exists('i18n')) { 
+                                 <?php
+          if (module_exists('i18n')) {
             $main_menu_tree = i18n_menu_translated_tree(variable_get('menu_main_links_source', 'main-menu'));
           } else {
             $main_menu_tree = menu_tree(variable_get('menu_main_links_source', 'main-menu'));
@@ -132,8 +132,7 @@
       <?php if ($page['footer']): ?>
         <?php print render($page['footer']); ?>
       <?php endif;?>
-      <div class="footer_zyxware">Theme by <?php print l('Zyxware Technologies','http://www.zyxware.com');?>
-      </div>
+      <!-- div class="footer_zyxware">Theme by <?php print l('Zyxware Technologies','http://www.zyxware.com');?>
+      </div-->
     </div>
  </div><!--closing of container div-->
-

@@ -63,7 +63,7 @@
  *
  */?>
 <div id="container">
-  
+
     <div class="container-12">
       <div id="header" class="grid-12">
         <div id="branding" class="heading grid-4">
@@ -72,7 +72,7 @@
             <?php print $site_name; ?>
           </a>
         <?php endif; ?>
-          <h2 id="site-description"><span><?php print render($site_slogan)?></span></h2>	
+          <h2 id="site-description"><span><?php print render($site_slogan)?></span></h2>
         </div><!--closing of branding div-->
         <!--<div id="menu-primary" class="menu-container grid-7">-->
       <?php// if ($main_menu): ?>
@@ -91,8 +91,8 @@
                             ),
                           )); */
           ?>
-                                 <?php 
-          if (module_exists('i18n')) { 
+                                 <?php
+          if (module_exists('i18n')) {
             $main_menu_tree = i18n_menu_translated_tree(variable_get('menu_main_links_source', 'main-menu'));
           } else {
             $main_menu_tree = menu_tree(variable_get('menu_main_links_source', 'main-menu'));
@@ -110,8 +110,8 @@
              <div class="entry-content">
              <?php print render($page['content']); ?></div>
              </div>
-        </div></div> 
-        
+        </div></div>
+
       </div><!--closing of main div-->
       <div id="sidebar-subsidiary" class="sidebar">
         <?php if ($page['text_widget']): ?><div class="textwidget grid-4"><?php print render($page['text_widget']); ?></div> <?php endif;?>
@@ -124,9 +124,8 @@
   <?php if ($page['footer']): ?>
         <div id="footer" class="grid-1">
         <?php print render($page['footer']); ?>
-        <div class="footer_zyxware">Theme by <?php print l('Zyxware Technologies','http://www.zyxware.com');?></div>
+        <!-- div class="footer_zyxware">Theme by <?php //print l('Zyxware Technologies','http://www.zyxware.com');?></div -->
         </div>
       <?php endif;?>
-   
-</div><!--closing of container div-->
 
+</div><!--closing of container div-->

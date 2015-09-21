@@ -25,12 +25,12 @@ dependencies[] = field_ui
 dependencies[] = file
 dependencies[] = rdf
 
-;dependencies[] = apachesolr
-;dependencies[] = apachesolr_search
 dependencies[] = pantheon_api
 dependencies[] = pantheon_login
-;dependencies[] = pantheon_apachesolr
 dependencies[] = ckeditor
 dependencies[] = imce
+dependencies[] = ctools
+dependencies[] = features
+dependencies[] = strongarm
 
 files[] = portfolio.profile
