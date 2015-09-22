@@ -534,6 +534,7 @@ Layout
 	float: left;
 	width: 35%;
 	overflow: hidden;
+	height: 60px;
 }
 #site-title {
 	font-size: 3em;
