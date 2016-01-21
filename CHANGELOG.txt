@@ -1,4 +1,6 @@
 
+
+
 Drupal 7.41, 2015-10-21
 -----------------------
 - Fixed security issues (open redirect). See SA-CORE-2015-004.
