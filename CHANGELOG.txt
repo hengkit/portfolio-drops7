@@ -1,4 +1,5 @@
 
+<<<<<<< HEAD
 Drupal 7.43, 2016-02-24
 -----------------------
 - Fixed security issues (multiple vulnerabilities). See SA-CORE-2016-001.
@@ -30,6 +31,9 @@ Drupal 7.42, 2016-02-03
 - Numerous small bug fixes.
 - Numerous API documentation improvements.
 - Additional automated test coverage.
+=======
+
+>>>>>>> 5933478d3eb4b18b27b640ba0da440cda3856baa
 
 Drupal 7.41, 2015-10-21
 -----------------------
