@@ -60,7 +60,7 @@ foreach ($json_array as $key => $val) {
 
   //var_dump($val['environment']);
 
-  if ($val['environment'] == $_GET['env']) {
+  if ($val['environment'] == $_GET['env'] && !($val['type'] == 'pingdom')) {
     if(!isset($val['failover'])){
       $type = $val['type'];
       if(isset($val['slave_of']) && $type == "dbserver"){
