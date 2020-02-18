@@ -3,3 +3,5 @@ never do this.
 unless it's very cool.
 
 or unless it's for a very cool demo.
+
+This is a cool demo.
