@@ -4,4 +4,6 @@ unless it's very cool.
 
 or unless it's for a very cool demo.
 
-This is a cool demo.
+This is a cool demo. 
+
+My theme is now color blue.
