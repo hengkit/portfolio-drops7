@@ -1,1 +1,3 @@
 never touch production code
+
+except if it's for a really really cool demo.
